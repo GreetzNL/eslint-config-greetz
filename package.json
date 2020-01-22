@@ -1,0 +1,24 @@
+{
+  "name": "@greetz/eslint-config-greetz",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreetzNL/eslint-config-greetz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreetzNL/eslint-config-greetz/issues"
+  },
+  "homepage": "https://github.com/GreetzNL/eslint-config-greetz#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "private": false
+}
