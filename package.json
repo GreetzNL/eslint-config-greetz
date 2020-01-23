@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/GreetzNL/eslint-config-greetz.git"
   },
-  "keywords": [],
+  "keywords": ["eslint", "eslintconfig"],
   "author": "",
   "license": "ISC",
   "bugs": {
