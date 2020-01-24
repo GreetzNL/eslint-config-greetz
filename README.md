@@ -9,7 +9,7 @@ Repo containing democratic JavaScript/TypeScript ESLint rules that are used acro
 1. The package depends on `eslint>=3` as a peer dependency. To install the package with all peer dependencies run:
 
 ```sh
-npx install-peerdepts --dev @greetz/eslint-config-greetz
+npx install-peerdeps --dev @greetz/eslint-config-greetz
 ```
 
 2. Add `"extends": "@greetz/eslint-config-greetz"` to your .eslintrc
