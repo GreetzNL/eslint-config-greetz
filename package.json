@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/GreetzNL/eslint-config-greetz.git"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,7 +21,13 @@
   },
   "homepage": "https://github.com/GreetzNL/eslint-config-greetz#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "@typescript-eslint/eslint-plugin": "^2.17.0"
   },
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.5"
+  }
 }
