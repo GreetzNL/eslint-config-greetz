@@ -15,7 +15,7 @@ npx install-peerdeps --dev @greetz/eslint-config-greetz
 After that TypeScript parser and plugin should be installed:
 
 ```sh
-npm i  @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm i --dev @typescript-eslint/eslint-plugin
 ```
 
 2. Add `"extends": "@greetz/eslint-config-greetz"` to your .eslintrc
