@@ -12,10 +12,11 @@ Repo containing democratic JavaScript/TypeScript ESLint rules that are used acro
 npx install-peerdeps --dev @greetz/eslint-config-greetz
 ```
 
-After that TypeScript parser and plugin should be installed:
-
-```sh
-npm i --dev @typescript-eslint/eslint-plugin
-```
-
 2. Add `"extends": "@greetz/eslint-config-greetz"` to your .eslintrc
+
+3. Add an npm script to run eslint:
+
+```json
+{
+  "lint": "eslint --ext .js,.ts ./"
+}
