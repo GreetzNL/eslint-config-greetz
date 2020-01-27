@@ -22,7 +22,8 @@
   "homepage": "https://github.com/GreetzNL/eslint-config-greetz#readme",
   "peerDependencies": {
     "eslint": ">= 3",
-    "@typescript-eslint/eslint-plugin": "^2.17.0"
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0"
   },
   "private": false,
   "dependencies": {
