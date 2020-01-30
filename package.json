@@ -1,6 +1,6 @@
 {
   "name": "@greetz/eslint-config-greetz",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "JavaScript/TypeScript styleguide",
   "main": "index.js",
   "scripts": {
