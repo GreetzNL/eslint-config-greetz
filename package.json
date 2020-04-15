@@ -1,6 +1,6 @@
 {
-  "name": "@greetz/eslint-config-greetz",
-  "version": "1.7.0",
+  "name": "@greetznl/eslint-config-greetz",
+  "version": "1.8.0",
   "description": "JavaScript/TypeScript styleguide",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GreetzNL/eslint-config-greetz.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "eslint",
