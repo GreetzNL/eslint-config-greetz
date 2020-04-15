@@ -1,5 +1,5 @@
 {
-  "name": "@greetz/eslint-config-greetz",
+  "name": "@greetznl/eslint-config-greetz",
   "version": "1.7.0-beta",
   "description": "JavaScript/TypeScript styleguide",
   "main": "index.js",
