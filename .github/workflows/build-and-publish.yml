@@ -14,13 +14,15 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@greetznl'
           
           
       - name: Install dependencies
         run: npm ci
         
       - name: Publish package to GPR
-        #if: contains(github.ref, 'master')
+        if: contains(github.ref, 'master')
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
