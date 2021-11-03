@@ -1,6 +1,6 @@
 {
   "name": "@greetznl/eslint-config-greetz",
-  "version": "2.0.1-beta.0",
+  "version": "2.0.0-beta.0",
   "description": "JavaScript/TypeScript styleguide",
   "main": "index.js",
   "scripts": {
